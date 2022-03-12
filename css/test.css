@@ -1,0 +1,101 @@
+#main {
+    width: 1260px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    
+  }
+  
+  #main div {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    
+  }
+  .blue{
+      
+      height: 500px;
+      background-color: khaki;
+      display: flex;
+      flex-direction: row;
+    
+  }
+  .f{
+      width: 300px;
+      height: 200px;
+      background-color: lawngreen;
+      margin: 10px;
+    }
+    .black{
+        background-color: lightpink;
+        width: 50px;
+        height: 50px;
+    }
+.bl{
+    background-color: lightseagreen;
+}
+ul{
+    padding-left: 0px;
+    margin-left: 10px;
+    padding-left: 100px;
+}
+li{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    float: none;
+    clear: both;
+}
+.frank{
+    /*background-image:transparent url(../image/frankinstin.png) no-repeat;*/
+    display: inline-block;
+    src: "../image/flower2.png";
+    clear: both;
+
+}
+.frank img:hover{
+  
+
+    background-color: chartreuse;
+    src: url(../image/flower2.png);
+
+    border: 2px solid red;
+}
+f:hover{
+    src: url(../image/flower2.png);
+    background:url(../image/flower2.png)
+    
+}
+img:hover{
+    src: url(../image/flower2.png);
+    src: "../image/flower2.png";
+}
+ ul li{float: left;}
+ ul{list-style-type: none;}
+ ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid black;
+}
+a{clear: both;}
+.l{margin: auto;}
+
+@media only screen and (max-width: 700px) {
+   
+   
+    body {
+        background-color: lightblue;
+      }
+    .frank{
+        
+          
+      }
+  }

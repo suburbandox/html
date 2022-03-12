@@ -1,0 +1,486 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px 10px auto;
+    color: indigo;
+    text-shadow: 4px 4px gray ;
+}
+#dec{
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
+  padding: 30px;
+}
+.area {
+  color: red;
+  background-color: gold;
+}
+#ar{background-color: aqua;}
+
+html{scroll-behavior: smooth;}
+body{
+  background-color: lightgray;
+  margin: auto;
+  width: 100%;
+  max-width: 1026px;
+}
+.glass{margin: 20px 0;}
+* {
+  box-sizing: border-box;
+}
+
+img:hover{
+  
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+.desc {
+  padding: 20px;
+  text-align: center;
+  width: auto;
+  color: mintcream;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%; 
+
+}
+video{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ a{text-decoration: none;}
+
+
+.net{
+  max-width: 1260px;
+  width: 90%;
+  margin: auto;
+  background-color: darkgray;
+  
+  
+}
+.row{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 200% ;
+  padding:20px 10px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+
+.row2{
+  display: flex;
+  padding:10px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+
+}
+footer p{
+	text-align: center;
+	color: white;
+	padding: 1em 0em 1em  0em;
+}
+footer{
+	background-color: indigo;
+	clear: both;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row3{
+  display: flex;
+}
+#short {
+  width: 100%;
+  font-size: 150%;
+}
+.col3{
+  width: 390px ;
+  background-color: grey;
+  margin: 15px;
+  border: 2px solid indigo;
+  border-radius: 10px;
+}
+dd{margin-inline-start: 40px;}
+dt{font-weight: bold;}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.pico{
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  
+}
+.pico img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+table{
+  text-align: center; 
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid ;
+  border-collapse: collapse;
+  margin: 10px auto;
+
+}
+th,td{
+	padding: .2em .7em;
+  border: 1px solid ;
+  transform-origin: center;
+
+}
+td:hover{
+  transform: scale(1.2) translateX(5px);
+ 
+  transition: 2s;
+
+  
+}
+
+th:nth-child(1), td:nth-child(1){text-align: left;}
+td a{color: rgb(104, 21, 143);}
+#nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  position: relative;
+}
+#nav_menu ul li{
+  float: left;
+	width: 20%;
+}
+#nav_menu ul ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 20%;
+}
+#nav_menu ul ul li{
+  float: none;
+  width: 100%;
+  position: relative;
+}
+
+
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;            /* Position the second submenu at the right side of the li element */ 
+	top: 0;                /* Position the second submenu at the top of the li element */
+  width: 100%;
+}
+
+
+
+#nav_menu ul li a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: indigo;
+	color: white;
+	font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#nav_menu{
+	position: relative;
+}
+#nav_menu ul li:hover > ul{
+	display: block;
+}
+
+
+#nav_menu > ul::after{
+	content: "";
+	float: none;
+	display: block;
+	clear: both;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: gray;
+}
+.red{
+  float: left;
+  width: 100%;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(194, 199, 199);
+  margin: 20px 0;
+}
+.red img{
+  width: 45%;
+  border: 2px solid indigo;
+  float: right;
+  margin-left: 10px;
+}
+.red h2{
+  padding: 5px;
+  font-size: 125%;
+}
+.blue img{
+  width: 100%;
+  height: 100%;
+  border: 2px solid indigo;
+}
+/*
+.blue{
+  float: right;
+  width: 45%;
+  margin: 40px;
+  max-width: 600px;
+} */
+
+button{
+  
+  float: right;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.575);
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid black;
+  font-size: 80%;
+  font-family: 'bebas', Times, serif;
+  border-radius: 8px;
+}
+button:hover{
+  background-color: rgba(228, 194, 5, 0.726);
+  color: black;
+}
+.blurb {
+  font-size: 20px;
+}
+.red ul,.red ol{padding-left: 40px;}
+#roll1{
+  background-image: url(../cocktail_images/Manhattan.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll1:hover{
+  background-image: url(../cocktail_images/OldFashionedB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+#roll2{
+  background-image: url(../cocktail_images/Martini.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll2:hover{
+  background-image: url(../cocktail_images/MartiniB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+#roll3{
+  background-image: url(../cocktail_images/Sour.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll3:hover{
+  background-image: url(../cocktail_images/DaiquiriB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+#roll4{
+  background-image: url(../cocktail_images/Margarita.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll4:hover{
+  background-image: url(../cocktail_images/SidecarB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+#roll5{
+  background-image: url(../cocktail_images/Cuba_Libre.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll5:hover{
+  background-image: url(../cocktail_images/HighballB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+
+#roll6{
+  background-image: url(../cocktail_images/Pina_Colada.JPEG);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#roll6:hover{
+  background-image: url(../cocktail_images/FlipB.jpg);
+  transition: .9s;
+  filter: grayscale(100%);
+}
+figcaption{
+	display: block;
+	margin: .5em 0 1em 1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+	font-weight: bold;
+	padding-top: .25em;
+	margin-bottom: 1em;
+	border-bottom:  1px solid black;
+  animation: ani 2s ease-in-out 3s  infinite alternate ;
+}
+@keyframes ani{
+	from{padding-left:0px;}
+	to{padding-left:500px;}
+}
+
+dd{line-height: 30px;}
+legend {
+  color: black;
+  font-weight: bold;
+  font-size: 100%;
+  margin-bottom: .5em;
+}
+fieldset {
+	margin-bottom: .5em;
+  padding: 10px 1em;
+  margin: 20px 0;
+}
+form{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+  width: 15em;
+  float: left;
+  text-align: right;
+  margin-left: 10px;
+}
+input
+{
+  margin-left: 10px;
+}
+textarea{margin-left: 10px;}
+@media only screen and (max-width:1270px) {
+  .net{
+      width: 976px;
+  }
+  .col3{
+    width: 295px;
+  }
+  .pico img{
+    width: 100%;
+    height: 100%;
+  }
+
+}
+@media only screen and (max-width:800px){
+  #about{
+    /* content: "About"; */
+    color: aqua;
+    background-color: burlywood;
+    text-decoration: dotted;
+  }
+}
+@media only screen and (max-width:990px) {
+  .net{
+      width: 90%;
+      
+  }
+  .col3{
+      width: 90%;
+      overflow: hidden;
+  }
+  .row3{
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+  }
+  .pico img{
+    width: 100%;
+    height: 100%;
+  } 
+  h1{
+    font-size: 200%;
+  }
+  .red img{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+ }
+}
+@font-face {
+  font-family: bebas;
+  src: url(../cocktail_css/Bebas-Regular.ttf);
+}
+
+ /* Style the search box */
+ #mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding:0, 11px;
+  /* border: 1px solid #ddd; */
+  border: none;
+  vertical-align: top;
+  text-align: left;
+  margin: 0;
+  outline: none;
+  height: 51.5px;
+  background-color: indigo;
+  color: white;
+}  
+
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  height: 309px;
+  overflow: hidden;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+#mySearch::placeholder{
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 7;
+}

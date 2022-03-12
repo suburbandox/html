@@ -1,0 +1,9 @@
+@media print{
+	img {display: none;}
+  #nav_menu {display: none;}
+  h1{
+    font-size: 150%;
+    text-shadow: none;
+  }
+  button{display: none;}
+}

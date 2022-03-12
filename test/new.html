@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #r{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            display: none;
+        }
+        #b{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+        }
+    </style>
+   
+</head>
+<body>
+    <div id="b"></div>
+    <div id="r"></div>
+    <script>
+        const sq = document.getElementById("r");
+        const q = document.getElementById("b");
+        const bod = document.body;
+        sq.addEventListener("click",function(event){
+            event.cancelBubble = true;
+            sq.style.backgroundColor = "red";
+            
+        })
+        q.addEventListener("click",function(event){
+            event.cancelBubble = true;
+            sq.style.display = "block";
+            
+        })
+        bod.addEventListener("click",function(){
+            sq.style.backgroundColor ="blue"; 
+            sq.style.display = "none";
+        })
+        
+    </script>
+</body>
+</html>
